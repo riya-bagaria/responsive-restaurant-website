@@ -1,0 +1,63 @@
+body {
+    padding-top: 70px;
+}
+
+.container {
+    width: 70%;
+    height: 70px;
+    padding: 0 10px;
+}
+
+.container-fluid {
+    line-height: 2;
+}
+
+.logo {
+    background-color: #ADC743;
+    color: white;
+    position: relative;
+    top: 0;
+    text-transform: uppercase;
+    font-family: 'Crimson Text', serif;
+    font-size: 2.15em;
+    background-position: center;
+}
+
+#nav-color {
+    background-color: white;
+    border-color: transparent;
+}
+
+li {
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+}
+
+.bgim {
+    background: url(im2.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+.text {
+    width: 30%;
+    position: relative;
+    top:0;
+    height: 100%;
+    left: 15%;
+    padding: 15% 5% 0 5%;
+    color: #333;
+    
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.7) 100%), url('im1.jpg');
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+i {
+    padding: 17px 10px;
+    color: grey;
+}
