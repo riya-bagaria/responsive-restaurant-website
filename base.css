@@ -3,9 +3,7 @@ body {
 }
 
 .container {
-    width: 70%;
-    height: 70px;
-    padding: 0 10px;
+    width: 85%;
 }
 
 .container-fluid {
@@ -49,9 +47,10 @@ li {
     left: 15%;
     padding: 15% 5% 0 5%;
     color: #333;
-    
+    font-size: 15%;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.7) 100%), url('im1.jpg');
 }
+
 
 .navbar-default .navbar-brand {
     color: white;
@@ -60,4 +59,131 @@ li {
 i {
     padding: 17px 10px;
     color: grey;
+}
+
+.cusine{
+    width: 50%;
+    height: 500px;
+}
+.box{
+    width: 60%;
+    height: 300px;
+    padding-top: 15px;
+    float: left;
+    margin-top:50px;
+}
+.local_cusine{
+    font-size: 110%;
+}
+
+
+.c1{
+    background-size: cover;
+    width: 100%;
+    width: 95%;  
+     opacity: 0.9;
+     z-index: 1;
+}
+.c2{
+    background-size: cover;
+    width: 100%;
+    width: 100%; 
+    z-index: 2; 
+    padding-left: 5%
+     
+}
+.c1:hover,.c2:hover{
+  transform: scale(.95);
+   transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.7s; 
+}
+.box1{
+    width: 40%; 
+    float: left;
+    margin-top:50px;
+}
+
+.box2{
+    width: 40%; 
+    float: left;
+    margin-top:50px;
+    padding-top: 10%;
+}
+.copyright{
+    background-color: black;
+    width: 100%;
+    
+}
+.cprt{
+    text-align: center;
+    
+}
+.cprtb{
+    padding: 20px 15px 0px 15px;
+    float: left;
+}
+.cprtr{
+
+    float: right;
+}
+/*.fsize{
+    font-size: 75px;
+    line-height: 50px;
+}*/
+@media (max-width :1099px){
+    .hid{
+        display: none;
+    }
+}
+
+/*@media (max-width :1372px){
+    .fsize{
+        font-size: 27px;
+    }
+}
+
+@media (max-width :1076px){
+    .fsize{
+        font-size: 20px;
+    }
+}*/
+
+@media (max-width :768px){
+    .container{
+        width: 95%;
+    }
+    .box{
+        width: 50%;
+        height: 180px;
+    }
+    .box1{
+        width: 50%;
+    }
+    .local_cusine{
+        font-size: 90%;
+    }
+    .local_cusine_title{
+        font-size: 130%;
+        font-weight: bold;
+    }
+
+}
+@media (max-width :425px){
+    .container{
+        width: 98%;
+    }
+    .box{
+        width: 100%;
+        height: 180px;
+    }
+    .box1{
+        width: 100%;
+    }
+    .local_cusine{
+        font-size: 90%;
+    }
+    .local_cusine_title{
+        font-size: 130%;
+        font-weight: bold;
+    }
+
 }
