@@ -1,44 +1,9 @@
-body {
-    padding-top: 70px;
-}
-
-.container {
-    width: 85%;
-}
-
-.container-fluid {
-    line-height: 2;
-}
-
-.logo {
-    background-color: #ADC743;
-    color: white;
-    position: relative;
-    top: 0;
-    text-transform: uppercase;
-    font-family: 'Crimson Text', serif;
-    font-size: 2.15em;
-    background-position: center;
-}
-
-#nav-color {
-    background-color: white;
-    border-color: transparent;
-}
-
-li {
-    font-size: 17px;
-    font-weight: normal;
-    font-family: 'Lato', sans-serif;
-}
-
 .bgim {
     background: url(im2.jpg);
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
 }
-
 .text {
     width: 30%;
     position: relative;
@@ -50,17 +15,6 @@ li {
     font-size: 15%;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.7) 100%), url('im1.jpg');
 }
-
-
-.navbar-default .navbar-brand {
-    color: white;
-}
-
-i {
-    padding: 17px 10px;
-    color: grey;
-}
-
 .cusine{
     width: 50%;
     height: 500px;
@@ -75,8 +29,6 @@ i {
 .local_cusine{
     font-size: 110%;
 }
-
-
 .c1{
     background-size: cover;
     width: 100%;
@@ -89,8 +41,7 @@ i {
     width: 100%;
     width: 100%; 
     z-index: 2; 
-    padding-left: 5%
-     
+    padding-left: 5%    
 }
 .c1:hover,.c2:hover{
   transform: scale(.95);
@@ -101,61 +52,21 @@ i {
     float: left;
     margin-top:50px;
 }
-
 .box2{
     width: 40%; 
     float: left;
     margin-top:50px;
     padding-top: 10%;
 }
-.copyright{
-    background-color: black;
-    width: 100%;
-    
-}
-.cprt{
-    text-align: center;
-    
-}
-.cprtb{
-    padding: 20px 15px 0px 15px;
-    float: left;
-}
-.cprtr{
-
-    float: right;
-}
-/*.fsize{
-    font-size: 75px;
-    line-height: 50px;
-}*/
-@media (max-width :1099px){
-    .hid{
-        display: none;
-    }
-}
-
-/*@media (max-width :1372px){
-    .fsize{
-        font-size: 27px;
-    }
-}
-
-@media (max-width :1076px){
-    .fsize{
-        font-size: 20px;
-    }
-}*/
-
 @media (max-width :768px){
-    .container{
-        width: 95%;
-    }
     .box{
         width: 50%;
         height: 180px;
     }
     .box1{
+        width: 50%;
+    }
+    .box2{
         width: 50%;
     }
     .local_cusine{
@@ -165,17 +76,16 @@ i {
         font-size: 130%;
         font-weight: bold;
     }
-
 }
 @media (max-width :425px){
-    .container{
-        width: 98%;
-    }
     .box{
         width: 100%;
         height: 180px;
     }
     .box1{
+        width: 100%;
+    }
+    .box2{
         width: 100%;
     }
     .local_cusine{
@@ -185,5 +95,7 @@ i {
         font-size: 130%;
         font-weight: bold;
     }
-
+    .c2{
+        padding-left: 0px;
+    }
 }

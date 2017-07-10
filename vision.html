@@ -1,0 +1,124 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Khana khajana</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" href="common.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav-color">
+        <div class="container">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                    <a class="navbar-brand logo" href="#">Yummy</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Our Vision</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><i class="fa fa-facebook fa-lg hid" aria-hidden="true"></i> </li>
+                        <li><i class="fa fa-instagram fa-lg hid" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-pinterest-p fa-lg hid" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-twitter fa-lg hid" aria-hidden="true"></i></li>
+                    </ul>
+                    </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+    </nav>
+    <!-- header endd -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer start -->
+    <!--copright division -->
+    <div class="copyright">
+        <div class="container">
+            <div class="cprtb">Blog</div>
+            <div class="cprtb">Investor</div>
+            <div class="cprtb">Feedback</div>
+            <div class="cprtb">Ads</div>
+            <div class="cprtr"><a href="https://www.facebook.com/riya.bagaria.50"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i> </a></div>
+            <div class="cprtr"><i class="fa fa-instagram fa-lg " aria-hidden="true"></i></div>
+            <div class="cprtr"><i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i></div>
+            <div class="cprtr"><i class="fa fa-twitter fa-lg " aria-hidden="true"></i></div>
+            </br>
+            </br>
+            </br>
+            <div class="cprt">
+                Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2016 by Omnifood. All rights reserved.
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery-2.1.4.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var scroll_start = 0;
+            var startchange = $('#about');
+            var offset = startchange.offset();
+            if (startchange.length) {
+                $(document).scroll(function () {
+                    scroll_start = $(this).scrollTop();
+                    if (scroll_start + 70 > offset.top) {
+                        $("#nav-color").css('background-color', '#333');
+                    } else {
+                        $('#nav-color').css('background-color', 'white');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
